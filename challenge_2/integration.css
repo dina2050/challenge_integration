@@ -44,9 +44,15 @@ footer h2 {
 } */
 
 footer {
-    width: 1000px;
+    width: 994px;
+    height: 235px;
 }
 
-h2 {
-    width: 24%;
+ul {
+    padding-left: 2em;
+    vertical-align: top;
+}
+
+footer {
+    margin-top: 115px;
 }
