@@ -28,13 +28,14 @@ h1 {
 .container {
     margin: auto;
     width: 70%;
+    margin-top: 25px;
 }
 
 footer, ul, h2 { 
     display: inline-block;
 }
 
- footer ul,{
+footer ul {
     width: 25%;
 }
 
@@ -46,6 +47,7 @@ footer h2 {
 footer {
     width: 994px;
     height: 235px;
+    margin-top: 115px;
 }
 
 ul {
@@ -53,6 +55,11 @@ ul {
     vertical-align: top;
 }
 
-footer {
-    margin-top: 115px;
+h4 {
+    margin-bottom: 30px;
+    margin-top: 22px;
+}
+
+h2 {
+    margin-top: 38px;
 }
