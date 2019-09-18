@@ -1,9 +1,20 @@
- ul .first{
+/* .first ul {
+    display: inline-block;
+} */
+
+.first li {
     display: inline-block;
 }
-li .first {
-    display: inline-block;
+
+.submenu {
+    display: none;
 }
+
+.hover:hover > .submenu {
+    display: block;
+    position: absolute;
+}
+
 nav {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -21,12 +32,12 @@ h1 {
 
 footer, ul, h2 { 
     display: inline-block;
-    
 }
 
  footer ul,{
     width: 25%;
 }
+
 /* 
 footer h2 {
     width: 25%;
@@ -34,4 +45,8 @@ footer h2 {
 
 footer {
     width: 1000px;
+}
+
+h2 {
+    width: 24%;
 }
