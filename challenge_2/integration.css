@@ -36,7 +36,7 @@ footer, ul, h2 {
 }
 
 footer ul {
-    width: 25%;
+    width: 20%;
 }
 
 /* 
@@ -47,12 +47,13 @@ footer h2 {
 footer {
     width: 994px;
     height: 235px;
-    margin-top: 115px;
+    margin-top: 75px;
 }
 
 ul {
     padding-left: 2em;
     vertical-align: top;
+    margin-top: 1em;
 }
 
 h4 {
@@ -61,5 +62,25 @@ h4 {
 }
 
 h2 {
-    margin-top: 38px;
+    margin-top: 0.5em;
+}
+
+footer h2 {
+    padding-bottom: 2em;
+}
+
+.middle {
+    background-color: lightblue;
+    height: 40px;
+    margin-top: 2em;
+}
+
+nav {
+    background-color: lightblue;
+    height: 59px;
+    width: 900px;
+   
+}
+.first li {
+    padding-left: 1em;
 }
