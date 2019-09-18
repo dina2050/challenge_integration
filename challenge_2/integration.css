@@ -1,6 +1,6 @@
-/* .first ul {
-    display: inline-block;
-} */
+.first ul {
+    background-image: url(images/bg.png);
+}
 
 .first li {
     display: inline-block;
@@ -53,6 +53,7 @@ footer {
     width: 994px;
     height: 235px;
     margin-top: 75px;
+    background-image: url(images/bg.png);
 }
 
 ul {
@@ -107,4 +108,10 @@ h2, li, main p {
 main h2 {
     color: black;
     font-size: 2em;
+}
+
+.submenu li {
+    display: block;
+    height: 33px;
+    padding: 0.2em;
 }
