@@ -115,3 +115,22 @@ main h2 {
     height: 33px;
     padding: 0.2em;
 }
+
+@media screen and (min-width: 600px) {
+    header {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+}
+@media screen and (min-width: 900px) {
+    .fas {
+        float: right;
+        display: none;
+        }
+}
+
